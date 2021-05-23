@@ -91,10 +91,8 @@ def main():
     loader = DataLoader(db, batch_size=8, shuffle=False)
     data = next(iter(loader))
 
-    # x= db[5]
-    print(data["label"])
-    save_image(db.denormalize(data["image"]), "./test.png")
-    # print(x["label_image"])
+    print(data["label"].shape)
+
 
 
 

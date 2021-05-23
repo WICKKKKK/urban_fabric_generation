@@ -59,7 +59,6 @@ def main():
     from options import Opt
     opt = Opt()
     ae = AE(opt).to(opt.device)
-    x = torch.randn(2, 3, 256, 256).to(opt.device)
     summary(ae, input_size=(3, 256, 256), batch_size=-1)
 
 
