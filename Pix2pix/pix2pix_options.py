@@ -58,7 +58,7 @@ class Opt():
                                            # 而在pix2pix中, 使用instance norm在卷积层后会损失颜色信息, 因此使用batch norm
                                            # 但原作者又提到, 为了在pix2pix中实现instance norm, 采用了batch size = 1的设定, 就很奇怪...
                                            # (确实之前的实验中, CycleGAN对于颜色信息缺失会比较严重, 而pix2pix则相对较好)
-        self.num_D = 3                     # 选择多尺度判别器的大小, 如果为1, 那么就是原始的30x30patchGAN
+        self.num_D = 2                     # 选择多尺度判别器的大小, 如果为1, 那么就是原始的30x30patchGAN
         self.gan_feat_loss = False         # 选择是否导出判别器的中间层feature来计算feature matching loss
 
         # 权重初始化参数
@@ -79,7 +79,7 @@ class Opt():
           self.lamb = 100.0        # 不计算gan_feat_loss时, 则计算real image与fake image的L1Loss, 默认权重为100.0(pix2pix论文)
 
         # 训练相关参数
-        self.epochs = 450              # 总epochs数量
+        self.epochs = 200              # 总epochs数量
         self.keep_lr_epochs = 100      # 保持初始学习率的epochs数量
         self.start_epoch = 1           # 起始epoch
         self.step = 0            # 起始step
