@@ -54,7 +54,11 @@ class Inception(nn.Module):
 
 def main():
     device = torch.device("cuda: 0" if torch.cuda.is_available() else "cpu")
+<<<<<<< HEAD
     model = Inception("../models/").to(device)
+=======
+    model = Inception().to(device)
+>>>>>>> 8b686f010869fde42d8accf661029670d89ada47
     summary(model, input_size=(3, 256, 256), batch_size=-1)
 
 if __name__ == '__main__':

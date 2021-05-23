@@ -62,7 +62,11 @@ def main():
     ae_checkpoint = torch.load("../models/ae.jpp")                 ## 将训练好的自编码器模型放到这个位置
     ae.load_state_dict(ae_checkpoint["model_state_dict"])
 
+<<<<<<< HEAD
     inception = Inception(model_path="../models/").to(opt.device)
+=======
+    inception = Inception(model_path="./").to(opt.device)
+>>>>>>> 8b686f010869fde42d8accf661029670d89ada47
 
     # 计算训练集数据上的得分
     train_image_vector_ae = None

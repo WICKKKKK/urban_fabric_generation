@@ -26,7 +26,11 @@ class BaseOptions():
         self.train_subfolder = "train/"       # 训练数据集目录
         self.test_subfolder = "test/"        # 测试数据集目录
 
+<<<<<<< HEAD
         self.model_path = "../models/GauGAN_G4D1_TL/"      # 模型保存目录
+=======
+        self.model_path = "./models/G4D1_TL/"      # 模型保存目录
+>>>>>>> 8b686f010869fde42d8accf661029670d89ada47
         if not os.path.exists(self.model_path):
             os.mkdir(self.model_path)
 
@@ -148,7 +152,11 @@ class TrainOptions(BaseOptions):
         self.lamb_L1 = 10.0            # 如果不计算 feature matching loss, 则计算real image与fake image的L1 loss, 与pix2pix一样的系数
         self.ganFeat_loss = True         # 是否计算 feature matching loss
         self.vgg_loss = True             # 是否计算vgg loss
+<<<<<<< HEAD
         self.vgg_model_path = "../models/"       # 设置预训练的vgg网络模型存放位置(文件或文件夹都可以)
+=======
+        self.vgg_model_path = "./"       # 设置预训练的vgg网络模型存放位置(文件或文件夹都可以)
+>>>>>>> 8b686f010869fde42d8accf661029670d89ada47
                                          # 如果该path上找不到该模型则会自动下载到该位置上
 
 
