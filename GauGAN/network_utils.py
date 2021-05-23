@@ -238,11 +238,7 @@ class KLDLoss(nn.Module):
 
 
 def main():
-<<<<<<< HEAD
     vgg = VGG19(model_path="../models/").to(torch.device("cuda: 0"))
-=======
-    vgg = VGG19(model_path="./").to(torch.device("cuda: 0"))
->>>>>>> 8b686f010869fde42d8accf661029670d89ada47
     summary(vgg, input_size=(3, 256, 256), batch_size=-1)
 
 
