@@ -10,3 +10,8 @@ This project researches on applications of deep learning technologies in urban t
 
 ## 城市尺度肌理生成/City-scale fabric generation
 ![容西肌理_2](https://user-images.githubusercontent.com/35953653/119256071-63c06e00-bbf1-11eb-9afa-ba99f693ee9b.png)
+
+## 注意/Attention
+由于预训练模型较大，因此项目中不包含最后训练完成的模型，需要可以通过微信联系我：18482185419
+
+Due to the pre-training model is too large, the final trained model is not included in the project. If you need it, you can contact me through Wechat: 18482185419
