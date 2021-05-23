@@ -1,0 +1,9 @@
+torch==1.2.0
+torchsummary==1.5.1
+torchvision==0.4.0
+numpy
+matplotlib
+scikit-image
+tqdm
+seaborn
+
