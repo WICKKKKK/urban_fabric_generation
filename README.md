@@ -9,4 +9,4 @@ This project researches on applications of deep learning technologies in urban t
 ![0](https://user-images.githubusercontent.com/35953653/119255814-450da780-bbf0-11eb-9fa0-7af90315faa6.gif)
 
 ## 城市尺度肌理生成/City-scale fabric generation
-![容东肌理_2](https://user-images.githubusercontent.com/35953653/119255875-8ef68d80-bbf0-11eb-8976-4e685f8deb6e.png)
+![容西肌理_2](https://user-images.githubusercontent.com/35953653/119256071-63c06e00-bbf1-11eb-9afa-ba99f693ee9b.png)
