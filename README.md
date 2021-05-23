@@ -18,7 +18,7 @@ The project is implemented using Pytorch 1.2 (version 1.0 should work). To run t
 
 `pip install -r requirements.txt`
 
-****
+***
 
 文件中已经放入城市肌理数据集和雄安西区容西片区土地利用规划简化图，默认参数下,4G显存的电脑即可完整运行代码来进行模型训练和生成（前提是已安装CUDA和相应的cudnn），如果配置允许，可适当调大Batch size或者调整网络架构（架构调整可通过options参数界面来实现），以达到更好的模型训练效果。项目所用模型在16G Tesla V100显卡上训练200 epochs得到，Batch size为12。 由于预训练模型和完整数据集较大，因此文件中不包含项目最终训练完成的模型，城市肌理数据集也仅提供一部分用于测试代码（500 training data 和 100 testing data）。如有这两方面急切需求，可通过微信联系我：18482185419
 
