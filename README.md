@@ -11,7 +11,7 @@ This project researches on applications of deep learning technologies in urban t
 ## 城市尺度肌理生成/City-scale fabric generation
 ![容西肌理_2](https://user-images.githubusercontent.com/35953653/119256071-63c06e00-bbf1-11eb-9afa-ba99f693ee9b.png)
 
-## 注意/Attention
-由于预训练模型较大，因此项目中不包含最后训练完成的模型，需要可以通过微信联系我：18482185419
+## 使用/Usage
+文件中已经放入城市肌理数据集和雄安西区容西片区土地利用规划简化图，可以直接运行代码进行训练，按照默认参数即可得到以上效果。由于预训练模型较大，因此文件中不包含最后训练完成的模型，需要可以通过微信联系我：18482185419
 
-Due to the pre-training model is too large, the final trained model is not included in the project. If you need it, you can contact me through Wechat: 18482185419
+Dataset of urban fabric and the simplified image of land use planning in Rongxi District of Xiongan city have been put into this project, which can be trained directly by running the code, and the above effect can be achieved using default parameters. Due to the pre-training model is too large, the final trained model is not included in the project. If you need it, you can contact me through Wechat: 18482185419
