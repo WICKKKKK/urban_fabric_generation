@@ -12,7 +12,7 @@ This project researches on applications of deep learning technologies in urban t
 ![容西肌理_2](https://user-images.githubusercontent.com/35953653/119256071-63c06e00-bbf1-11eb-9afa-ba99f693ee9b.png)
 
 ## 使用/Usage
-该项目使用Pytorch 1.2（更新的版本应该也可以），运行项目代码需要在你的Python环境中安装相应的库，可直接通过以下命令实现：
+该项目使用Pytorch 1.2（更新的版本应该也可以），运行项目代码需要在你的Python环境中安装相应的库，可通过以下命令实现：
 
 `pip install -r requirements.txt`
 
