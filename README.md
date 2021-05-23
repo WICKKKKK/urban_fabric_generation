@@ -12,6 +12,10 @@ This project researches on applications of deep learning technologies in urban t
 ![容西肌理_2](https://user-images.githubusercontent.com/35953653/119256071-63c06e00-bbf1-11eb-9afa-ba99f693ee9b.png)
 
 ## 使用/Usage
-文件中已经放入城市肌理数据集和雄安西区容西片区土地利用规划简化图，可以直接运行代码进行模型训练（按照默认参数即可），训练完成即可得到以上效果。由于预训练模型较大，因此文件中不包含最后训练完成的模型，如有需要可通过微信联系我：18482185419
+该项目使用Pytorch 1.2（更新的版本应该也可以），运行项目需要在你的Python环境中安装所需要的库：
 
-Dataset of urban fabric and the simplified image of land use planning in Rongxi District of Xiongan city have been put into this project, which can be trained directly by running the code, and the above effect can be achieved using default parameters. Due to the pre-training model is too large, the final trained model is not included in the project. If you need it, you can contact me through Wechat: 18482185419
+`pip install -r requirements.txt`
+
+文件中已经放入城市肌理数据集和雄安西区容西片区土地利用规划简化图，因此配制好环境即可直接运行代码进行模型训练。默认参数下代码可在满足4G显存条件的电脑上运行（前提是已安装CUDA和相应的cudnn），如果配置允许，可适当调大Batch size或者调整网络架构（架构调整可通过options参数界面来实现），以达到更好的模型训练效果。项目所用模型在16G Tesla V100显卡上训练200 epochs得到，Batch size为12。 由于模型较大，因此文件中不包含训练完成的模型，如有需要可通过微信联系我：18482185419
+
+Dataset of urban fabric and the simplified image of land use planning in Rongxi Xiongan have been put into this project, which can be trained directly by running the code. Under the default parameters, code can be run on a computer with 4G GPU (provided that CUDA and the corresponding cudnn are installed). if the configuration allows, you can appropriately adjust the Batch size or adjust the network architecture (architecture adjustment can be achieved through options module) to achieve better model training results. The model used in the project was trained on a 16G Tesla V100 GPU for 200 epochs, Batch size is 12. Due to the pre-training model is too large, the final trained model is not included in the project. If you need it, you can contact me through Wechat: 18482185419
