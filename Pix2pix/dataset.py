@@ -71,7 +71,7 @@ class MyDataset(Dataset):
 
 
 def main():
-    root = "../data/data_test/"
+    root = "../data/city_fabric/"
     subfolder = "test/"
 
     dataset = MyDataset(root=root, subfolder=subfolder)

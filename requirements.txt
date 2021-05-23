@@ -1,12 +1,9 @@
 torch==1.2.0
 torchsummary==1.5.1
 torchvision==0.4.0
-<<<<<<< HEAD
 numpy
 matplotlib
 scikit-image
 tqdm
 seaborn
-=======
->>>>>>> 8b686f010869fde42d8accf661029670d89ada47
 

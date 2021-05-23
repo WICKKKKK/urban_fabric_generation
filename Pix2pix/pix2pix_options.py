@@ -20,11 +20,8 @@ class Opt():
         self.train_subfolder = "train/"       # 训练数据集目录
         self.test_subfolder = "test/"         # 测试数据集目录
 
-<<<<<<< HEAD
         self.model_path = "../models/Pix2pix_multiD3_L1_G4D1_TL/"      # 模型保存目录
-=======
-        self.model_path = "./models/multiD3_L1_G4D1_TL/"      # 模型保存目录
->>>>>>> 8b686f010869fde42d8accf661029670d89ada47
+
         if not os.path.exists(self.model_path):
             os.mkdir(self.model_path)
         self.train_img_save_path = os.path.join(self.model_path, "generated_train/")    # 训练集生成数据保存目录
@@ -33,7 +30,7 @@ class Opt():
         self.test_img_infer_path = os.path.join(self.model_path, "test_result/")        # 测试集inference保存目录
 
         # 预加载模型设置
-        self.preload = True                                                       # 设置是否进行预加载模型
+        self.preload = False                                                       # 设置是否进行预加载模型
         self.model_name = "model_latest.jpp"                                       # 设置预加载模型的名称
         self.preload_model_path = os.path.join(self.model_path, self.model_name)   # 生成预加载模型的路径
         self.infer_model_name = "model_latest.jpp"                                    # 测试模型的名称
